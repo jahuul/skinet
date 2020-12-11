@@ -11,7 +11,7 @@ import { ShopService } from './shop.service';
   styleUrls: ['./shop.component.scss']
 })
 export class ShopComponent implements OnInit {
-  @ViewChild('search', { static: true }) searchTerm!: ElementRef;
+  @ViewChild('search', { static: false }) searchTerm!: ElementRef;
   products: IProduct[] = [];
   brands: IBrand[] = [];
   types: IType[] = [];
@@ -34,13 +34,9 @@ export class ShopComponent implements OnInit {
 
   getProducts() {
     this.shopService.getProducts(this.shopParams).subscribe(response => {
-      // tslint:disable-next-line: no-non-null-assertion
       this.products = response!.data;
-      // tslint:disable-next-line: no-non-null-assertion
       this.shopParams.pageNumber = response!.pageIndex;
-      // tslint:disable-next-line: no-non-null-assertion
       this.shopParams.pageSize = response!.pageSize;
-      // tslint:disable-next-line: no-non-null-assertion
       this.totalCount = response!.count;
     }, error => {
       console.log(error);

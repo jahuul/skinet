@@ -1,15 +1,14 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Core.Entities;
 using Microsoft.AspNetCore.Mvc;
-using Core.Interfaces;
-using Core.Specifications;
 using API.Dtos;
-using System.Linq;
-using AutoMapper;
 using API.Errors;
 using Microsoft.AspNetCore.Http;
 using API.Helpers;
+using Core.Interfaces;
+using Core.Entities;
+using AutoMapper;
+using Core.Specifications;
 
 namespace API.Controllers
 {

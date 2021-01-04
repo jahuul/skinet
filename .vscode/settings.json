@@ -1,0 +1,13 @@
+{
+    "css.styleSheets": [
+
+        "/client/node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "/client/node_modules/bootstrap/dist/css/bootstrap.css",
+        "/client/node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
+        "/client/node_modules/bootswatch/dist/united/bootstrap.min.css",
+        "/client/node_modules/font-awesome/css/font-awesome.min.css",
+        "/client/node_modules/ngx-toastr/toastr.css",
+        "/client/src/styles.scss",
+        "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0beta1/dist/css/bootstrap.min.css"
+    ]
+  }

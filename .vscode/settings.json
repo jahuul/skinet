@@ -9,5 +9,12 @@
         "/client/node_modules/ngx-toastr/toastr.css",
         "/client/src/styles.scss",
         "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0beta1/dist/css/bootstrap.min.css"
-    ]
+    ],
+    "editor.fontSize": 17,
+    "files.autoSave": "afterDelay",
+    "debug.console.fontSize": 17,
+    "terminal.integrated.fontSize": 17,
+    "explorer.compactFolders": false,
+    "csharpextensions.useThisForCtorAssignments": false,
+    "csharpextensions.privateMemberPrefix": "_"
   }
